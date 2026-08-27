@@ -1008,6 +1008,17 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   align-items: start;
 }
 
+.pastor-section {
+  margin: 0 auto;
+}
+
+.pastor-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+}
+
 .values-card {
   padding: 58px;
   border-radius: var(--radius-lg);
@@ -1061,9 +1072,8 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
 
 .pastor-card {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1;
   overflow: hidden;
-  margin-bottom: 28px;
   border-radius: var(--radius-lg);
   background: var(--color-stone-200);
 }
@@ -1861,6 +1871,7 @@ select:focus {
   }
 
   .two-column,
+  .pastor-layout,
   .card-grid.three,
   .giving-grid,
   .giving-intro,
@@ -1886,6 +1897,10 @@ select:focus {
 
   .next-step-card-primary > div {
     min-height: 0;
+  }
+
+  .pastor-card {
+    max-width: 420px;
   }
 
   .next-step-card-secondary {
