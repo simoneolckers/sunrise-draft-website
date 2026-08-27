@@ -1823,6 +1823,10 @@ select:focus {
 }
 
 @media (min-width: 921px) {
+  .about-page .about-intro {
+    max-width: 980px;
+  }
+
   .about-page .page-shell {
     padding-top: 128px;
   }
