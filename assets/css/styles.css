@@ -973,8 +973,8 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   margin-bottom: 112px;
   padding: 72px;
   border-radius: var(--radius-lg);
-  color: var(--color-white);
-  background: var(--color-stone-950);
+  color: var(--color-stone-900);
+  background: var(--color-stone-50);
 }
 
 .beliefs-panel h2 {
@@ -997,6 +997,11 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   font-size: 1.45rem;
   font-style: italic;
   line-height: 1.65;
+}
+
+.beliefs-panel .check-list {
+  max-width: 800px;
+  margin-bottom: 46px;
 }
 
 .values-pastor {
