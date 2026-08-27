@@ -970,16 +970,20 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
 }
 
 .beliefs-panel {
-  margin-bottom: 112px;
   padding: 72px;
   border-radius: var(--radius-lg);
   color: var(--color-stone-900);
+  background: transparent;
+}
+
+.about-beliefs-section {
+  margin-bottom: 112px;
   background: var(--color-stone-50);
 }
 
 .beliefs-panel h2 {
   margin: 0 0 36px;
-  font-size: 3.6rem;
+  font-size: 1.8rem;
   line-height: 1.05;
 }
 
@@ -1028,7 +1032,7 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
 .values-card h2,
 .block-title {
   margin: 0 0 34px;
-  font-size: 2.45rem;
+  font-size: 1.8rem;
   line-height: 1.08;
 }
 
@@ -2143,7 +2147,10 @@ select:focus {
     padding: 28px;
   }
 
-  .beliefs-panel h2,
+  .beliefs-panel h2 {
+    font-size: 1.8rem;
+  }
+
   .connect-panel h2 {
     font-size: 2.4rem;
   }
