@@ -1847,6 +1847,10 @@ select:focus {
     max-width: 980px;
   }
 
+  .about-page .beliefs-panel {
+    padding-left: 0;
+  }
+
   .about-page .page-shell {
     padding-top: 128px;
   }
