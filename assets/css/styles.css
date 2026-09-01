@@ -1792,6 +1792,7 @@ select:focus {
 .giving-card.online {
   color: var(--color-white);
   background: var(--color-orange);
+  justify-content: flex-start;
 }
 
 .giving-card.online p {
@@ -1799,9 +1800,10 @@ select:focus {
 }
 
 .payfast-section-logo {
-  width: 130px;
+  width: 110px;
   height: auto;
-  margin: 0 0 18px;
+  flex: 0 0 auto;
+  margin: 0 auto;
 }
 
 .payfast-form label span {
