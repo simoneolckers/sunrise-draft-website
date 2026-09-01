@@ -1798,6 +1798,12 @@ select:focus {
   color: rgba(255, 255, 255, 0.88);
 }
 
+.payfast-section-logo {
+  width: 130px;
+  height: auto;
+  margin: 0 0 18px;
+}
+
 .payfast-form label span {
   color: rgba(255, 255, 255, 0.9);
 }
