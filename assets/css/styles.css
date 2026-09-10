@@ -793,6 +793,40 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   font-size: 1.2rem;
 }
 
+.connect-panel p + p {
+  margin-top: 8px;
+}
+
+.connect-form {
+  width: min(100%, 440px);
+  flex: 0 1 440px;
+  gap: 8px;
+}
+
+.connect-form label {
+  color: var(--color-white);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.connect-form-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.connect-form input {
+  min-width: 0;
+  border-color: rgba(255, 255, 255, 0.42);
+  color: var(--color-stone-900);
+  background: var(--color-white);
+}
+
+.connect-form .btn {
+  flex: 0 0 auto;
+}
+
 .connect-panel .btn-dark:hover {
   color: var(--color-orange-dark);
   background: var(--color-white);
@@ -1643,6 +1677,28 @@ select:focus {
   font-size: 1.06rem;
 }
 
+.partner-section .next-primary-grid {
+  grid-template-columns: 1fr;
+}
+
+.partner-section .next-step-card-primary {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.85fr) minmax(0, 1.15fr);
+}
+
+.partner-section .next-step-card-primary img {
+  height: 100%;
+  aspect-ratio: auto;
+}
+
+.partner-section .partner-statement {
+  margin-top: 24px;
+  color: var(--color-stone-900);
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 .step-kicker {
   color: var(--color-orange);
   font-size: 0.76rem;
@@ -1916,6 +1972,15 @@ select:focus {
     min-height: 0;
   }
 
+  .partner-section .next-step-card-primary {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-section .next-step-card-primary img {
+    height: auto;
+    aspect-ratio: 1.6;
+  }
+
   .pastor-card {
     max-width: 420px;
   }
@@ -1939,6 +2004,10 @@ select:focus {
   .footer-bottom {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .connect-form {
+    width: 100%;
   }
 
   .footer-grid {

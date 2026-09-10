@@ -80,31 +80,6 @@
         >
       </section>
 
-      <section class="container next-primary">
-        <div class="section-heading-row compact">
-          <div>
-            <span class="eyebrow">Start here</span>
-            <h2 class="section-title">One simple way to belong.</h2>
-          </div>
-        </div>
-
-        <div class="next-primary-grid">
-          <article class="next-step-card next-step-card-primary">
-            <img
-              src="../assets/images/beach_baptism.jpg"
-              alt="People at Sunrise Church"
-            >
-            <div>
-              <h2>Become a Partner</h2>
-              <p>
-                Partnership means that you're ready to play a committed part in
-                the life of Sunrise Church.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
       <section class="container next-secondary">
         <div class="section-heading-row compact">
           <div>
@@ -187,18 +162,40 @@
         </div>
       </section>
 
+      <section class="container next-primary partner-section" aria-labelledby="partner-heading">
+        <div class="next-primary-grid">
+          <article class="next-step-card next-step-card-primary">
+            <img
+              src="../assets/images/beach_baptism.jpg"
+              alt="People at Sunrise Church"
+            >
+            <div>
+              <span class="step-kicker">Make Sunrise home</span>
+              <h2 id="partner-heading">Become a Partner</h2>
+              <p>
+                Partnership is choosing to play a committed part in the life of
+                Sunrise.
+              </p>
+              <p class="partner-statement">This is my church. These are my people. I’m in.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section class="container" aria-labelledby="community-contact-heading">
         <div class="connect-panel">
           <div>
-            <h2 id="community-contact-heading">Ready to get connected?</h2>
-            <p>
-              Chat to Tristan on Sunday or email
-              <a href="mailto:info@sunrisechurch.co.za">info@sunrisechurch.co.za</a>.
-            </p>
+            <h2 id="community-contact-heading">Making Sunrise your home?</h2>
+            <p>We’re thrilled.</p>
+            <p>Leave your email below and we’ll help you take your next step.</p>
           </div>
-          <a class="btn btn-dark" href="mailto:info@sunrisechurch.co.za">
-            Email Us
-          </a>
+          <form class="connect-form" data-visual-form>
+            <label for="community-email">Email address</label>
+            <div class="connect-form-fields">
+              <input id="community-email" name="email" type="email" autocomplete="email" required>
+              <button class="btn btn-dark" type="submit">Submit</button>
+            </div>
+          </form>
         </div>
       </section>
     </main>
