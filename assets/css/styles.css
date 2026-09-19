@@ -863,6 +863,7 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
   gap: 72px;
+  margin-bottom: 112px;
   padding: 60px;
   border-color: var(--color-stone-200);
   color: var(--color-stone-900);
@@ -2170,6 +2171,7 @@ select:focus {
 
   .community-page .connect-panel {
     padding: 32px 28px;
+    margin-bottom: 76px;
   }
 
   .community-page .connect-form .btn {
