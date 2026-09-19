@@ -859,6 +859,56 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   background: var(--color-white);
 }
 
+.community-page .connect-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  gap: 72px;
+  padding: 60px;
+  border-color: var(--color-stone-200);
+  color: var(--color-stone-900);
+  background: var(--color-stone-50);
+  box-shadow: none;
+}
+
+.community-page .connect-panel .eyebrow {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--color-orange-dark);
+}
+
+.community-page .connect-panel h2 {
+  margin-bottom: 12px;
+  color: var(--color-stone-900);
+}
+
+.community-page .connect-panel p {
+  color: var(--color-stone-600);
+}
+
+.community-page .connect-form {
+  width: 100%;
+  flex: none;
+}
+
+.community-page .connect-form label {
+  color: var(--color-stone-700);
+}
+
+.community-page .connect-form input {
+  border-color: var(--color-stone-200);
+  background: var(--color-white);
+}
+
+.community-page .connect-form .btn-dark:hover {
+  color: var(--color-white);
+  background: var(--color-orange-dark);
+}
+
+.connect-form-note {
+  margin-top: 12px !important;
+  font-size: 0.88rem !important;
+}
+
 .site-footer {
   color: var(--color-white);
   background: var(--color-stone-950);
@@ -1952,6 +2002,11 @@ select:focus {
     width: 100%;
   }
 
+  .community-page .connect-panel {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
   .connect-form-fields {
     flex-direction: column;
   }
@@ -2111,6 +2166,14 @@ select:focus {
   .midweek-gatherings,
   .connect-panel {
     padding: 28px;
+  }
+
+  .community-page .connect-panel {
+    padding: 32px 28px;
+  }
+
+  .community-page .connect-form .btn {
+    width: 100%;
   }
 
   .giving-intro div {
