@@ -290,6 +290,14 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   z-index: -3;
 }
 
+.community-page .hero-image {
+  object-position: center 40%;
+}
+
+.community-page .hero-content {
+  transform: translateY(14vh);
+}
+
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
   z-index: -2;
@@ -307,6 +315,10 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   font-weight: 900;
   line-height: 0.94;
   letter-spacing: 0;
+}
+
+.community-page .hero h1 {
+  font-size: 3.8rem;
 }
 
 .hero p {
@@ -1632,6 +1644,10 @@ select:focus {
   margin-bottom: 112px;
 }
 
+.community-page .next-secondary {
+  margin-top: 72px;
+}
+
 .next-secondary .section-title {
   max-width: 760px;
   font-size: clamp(2.3rem, 5vw, 4.2rem);
@@ -1822,6 +1838,10 @@ select:focus {
     font-size: 8rem;
   }
 
+  .community-page .hero h1 {
+    font-size: 7.2rem;
+  }
+
   .hero p {
     font-size: 1.35rem;
   }
@@ -1861,6 +1881,10 @@ select:focus {
 @media (min-width: 1180px) {
   .hero h1 {
     font-size: 9.4rem;
+  }
+
+  .community-page .hero h1 {
+    font-size: 8.4rem;
   }
 
 }
@@ -2019,6 +2043,10 @@ select:focus {
     font-size: 3.65rem;
   }
 
+  .community-page .hero h1 {
+    font-size: 3.3rem;
+  }
+
   .hero p {
     font-size: 1rem;
   }
@@ -2106,6 +2134,10 @@ select:focus {
 
   .next-secondary {
     margin-bottom: 76px;
+  }
+
+  .community-page .next-secondary {
+    margin-top: 56px;
   }
 
   .next-step-card-secondary > div {
