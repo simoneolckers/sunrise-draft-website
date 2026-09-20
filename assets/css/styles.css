@@ -303,12 +303,6 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
   z-index: -2;
 }
 
-.about-page .hero-overlay {
-  background:
-    linear-gradient(120deg, rgba(223, 91, 59, 0.3), rgba(12, 10, 9, 0.5)),
-    radial-gradient(circle at 72% 22%, rgba(255, 196, 104, 0.24), transparent 42%);
-}
-
 .hero-content {
   width: min(100% - 32px, 980px);
   text-align: center;
@@ -325,6 +319,10 @@ body.home-page .site-nav:not(.nav-scrolled) .visit-pill:hover {
 
 .community-page .hero h1 {
   font-size: 3.8rem;
+}
+
+.about-page .hero h1 {
+  font-size: 3.5rem;
 }
 
 .hero p {
@@ -1916,6 +1914,10 @@ select:focus {
     font-size: 7.2rem;
   }
 
+  .about-page .hero h1 {
+    font-size: 6rem;
+  }
+
   .hero p {
     font-size: 1.35rem;
   }
@@ -1959,6 +1961,10 @@ select:focus {
 
   .community-page .hero h1 {
     font-size: 8.4rem;
+  }
+
+  .about-page .hero h1 {
+    font-size: 7rem;
   }
 
 }
@@ -2124,6 +2130,10 @@ select:focus {
 
   .community-page .hero h1 {
     font-size: 3.3rem;
+  }
+
+  .about-page .hero h1 {
+    font-size: 3.2rem;
   }
 
   .hero p {
