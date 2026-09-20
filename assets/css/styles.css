@@ -1859,13 +1859,6 @@ select:focus {
   color: rgba(255, 255, 255, 0.88);
 }
 
-.payfast-section-logo {
-  width: 110px;
-  height: auto;
-  flex: 0 0 auto;
-  margin: 0 auto;
-}
-
 .payfast-form label span {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -1882,6 +1875,29 @@ select:focus {
 .payfast-form .btn:hover {
   color: var(--color-white);
   background: var(--color-black);
+}
+
+.payment-assurance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 2px 0 0 !important;
+  color: rgba(255, 255, 255, 0.78) !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.payment-assurance svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .small-note {
